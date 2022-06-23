@@ -1,0 +1,2 @@
+While(if != True):
+    main();
