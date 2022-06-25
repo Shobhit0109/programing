@@ -20,7 +20,11 @@ int main(void)/*(int argc,char **argv)*/ {
 
 //    #endif
 
-    
-
+    int n;
+    cin >> n;
+    cout << n << endl;
+    scanf("%d",&n);
+    printf("n=%d",n);
+    // Both cout and printf does take input until integer neglecting tabs and spaces
  return 0;
 }
