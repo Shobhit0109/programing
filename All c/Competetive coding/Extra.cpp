@@ -19,8 +19,16 @@ int main(void)/*(int argc,char **argv)*/ {
 //        freopen("/home/shobhit/Documents/programing/All codes Execution files/Input Output/output.txt", "w", stdout);
 
 //    #endif
-
-    
-
+/*
+    int n;
+    cin >> n;
+    cout << n << endl;
+    scanf("%d",&n);
+    printf("n=%d",n);
+    // Both cout and printf does take input until integer neglecting tabs and spaces
+*/
+    int *a,b[10];
+    cout << sizeof(a) << endl;
+    cout << sizeof(b) << endl;
  return 0;
 }
