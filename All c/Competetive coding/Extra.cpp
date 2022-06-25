@@ -27,8 +27,10 @@ int main(void)/*(int argc,char **argv)*/ {
     printf("n=%d",n);
     // Both cout and printf does take input until integer neglecting tabs and spaces
 */
+/*
     int *a,b[10];
     cout << sizeof(a) << endl;
     cout << sizeof(b) << endl;
+*/
  return 0;
 }
