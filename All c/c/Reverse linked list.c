@@ -11,7 +11,7 @@ void make_list(node *L,int n) {
     int i;
     node* temp = L;
 
-    scanf("%d",temp->n);
+    scanf("%d",&temp->n);
     temp -> next = NULL;
 
     for(i=0;i<n-1;i++) {

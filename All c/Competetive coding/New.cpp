@@ -1,3 +1,4 @@
+//ctrl+shift+a --> multiline comments ; ctrl+/ --> single line comments
 //#include <bits/stdc++.h>
 #include <iostream>
 #include <cstdio>
