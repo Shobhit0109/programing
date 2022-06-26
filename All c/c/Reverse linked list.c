@@ -11,6 +11,7 @@ void make_list(node *L,int n) {
     int i;
     node* temp = L;
 
+    printf("\n\tEnter the first elements of the list: ");
     scanf("%d",&temp->n);
     temp -> next = NULL;
 
@@ -20,19 +21,17 @@ void make_list(node *L,int n) {
             temp = temp->next;
             
         temp->next = (node *)malloc(sizeof(node));
+        printf("\n\tEnter the value of node %d: ",i+2);
         scanf("%d",&(temp->next->n));
         temp->next->next = NULL;
 
     }
-
 }
 
 void Free (node* l) {
 
-    node* temp;
-
     while(l != NULL) {
-        temp = l;
+        node* temp = l;
         l = l->next;
         free(temp);
     }
@@ -40,37 +39,30 @@ void Free (node* l) {
 
 node *reverse_list(node *L) {
 
-    node *rev,*temp;
-    while(L->next != NULL) {
-        rev = L->next;
-        temp = rev->next;
-        rev->next = L;
-        L = temp; 
-    }
-    L->next = rev;
-    rev = L;
-
-    return rev;
+    return L;
 }
 
 int main() {
 
-    node* L,*rev;
-    int n,min;
-
+    int n;
+    printf("\n\tEnter the number of nodes: ");
     scanf("%d",&n);
 
     if(n>0) {
-        L = (node *)malloc(sizeof(node));
-        make_list(L,n);
+        node *list , *temp;
+        list = (node *)malloc(sizeof(node));
+        make_list(list,n);
 
-        rev = reverse_list(L);
+        temp = list = reverse_list(list);
 
-        while(rev != NULL) {
-            printf("%d \n",rev-> n);
-            rev = rev->next;
+        n = 0;
+        printf("\n\tThe reverse list is: \n");
+
+        while(list != NULL) {
+            printf("\n\tThe %d element of reversed list is: %d",++n,list-> n);
+            list = list->next;
         }
+        Free(temp);
     }
-    Free(L);
     return 0;
 }
