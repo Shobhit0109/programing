@@ -1,4 +1,3 @@
-//ctrl+shift+a --> multiline comments ; ctrl+/ --> single line comments
 //#include <bits/stdc++.h>
 #include <iostream>
 #include <cstdio>
@@ -23,7 +22,13 @@ int main(int argc,const char **argv) {
 
     cout << "\n\tYour file name :" << argv[0];
     if (argc > 1) cout << "\n\tYou have arguments also!!";
-    
+    else cout << "\n\tYou have no arguments!!";
+
+// To check:
+//[6/28/2022, 2:16:06 AM] For C source files, IntelliSenseMode was changed from "linux-gcc-x64" to "linux-clang-x64" based on compiler args and querying compilerPath: "/usr/bin/clang"
+//[6/28/2022, 2:16:06 AM] IntelliSenseMode was changed because it didn't match the detected compiler.  Consider setting "compilerPath" instead.  Set "compilerPath" to "" to disable detection of system includes and defines.
 
  return 0;
 }
+
+//to run the executable file in gnome-terminal use : gnome-terminal -- bash -c './new-cpp;read line'
