@@ -9,14 +9,25 @@ using namespace std;
 
 int main(int argc,const char **argv) {
 
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(NULL);
+//     cout.tie(0);
+
+//    #ifndef ONLINE_JUDGE
+
+//        freopen("/home/shobhit/Documents/programing/All codes Execution files/Input Output/input.txt", "r", stdin);
+//        freopen("/home/shobhit/Documents/programing/All codes Execution files/Input Output/output.txt", "w", stdout);
+
+//    #endif
 
     cout << "\n\tYour file name :" << argv[0];
     if (argc > 1) cout << "\n\tYou have arguments also!!";
     else cout << "\n\tYou have no arguments!!";
 
-/* 
-    cin >> (char*) argv; // == argv[0]
-    cout << (char*) argv;
- */
+    
+
  return 0;
 }
+
+//to run the executable file in gnome-terminal use : gnome-terminal -- bash -c './new-cpp;read line'
+//for tilix : tilix -e 'command'

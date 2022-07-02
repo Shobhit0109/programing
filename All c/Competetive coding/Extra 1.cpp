@@ -54,5 +54,10 @@ int main(void) {//int argc,char **argv) {
     for (int i=0;i<3;i++)
         printf("%s\n",(char*)(a+i));
   */   
+
+ /* 
+    cin >> (char*) argv; // == argv[0]
+    cout << (char*) argv;
+ */
  return 0;
 }
