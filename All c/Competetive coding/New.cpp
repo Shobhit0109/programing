@@ -11,7 +11,7 @@ int main(int argc,const char **argv) {
 
 //     ios_base::sync_with_stdio(false);
 //     cin.tie(NULL);
-//     cout.tie(0);
+//     cout.tie(0);/
 
 //    #ifndef ONLINE_JUDGE
 
@@ -23,9 +23,9 @@ int main(int argc,const char **argv) {
     cout << "\n\tYour file name :" << argv[0];
     if (argc > 1) cout << "\n\tYou have arguments also!!";
     else cout << "\n\tYou have no arguments!!";
-
     
-
+    
+    
  return 0;
 }
 
