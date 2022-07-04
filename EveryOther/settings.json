@@ -1,0 +1,107 @@
+{
+    "editor.suggestSelection": "first",
+    "code-runner.runInTerminal": true,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.editor.enablePreview": false,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "workbench.colorCustomizations": {
+
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    
+    },
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.bracketPairs": false,
+    "editor.inlayHints.enabled": "on",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "on",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeLensFontFamily": "Fira Code",
+    "workbench.colorTheme": "Aura Dark (Soft Text)",
+    "terminal.integrated.autoReplies": {
+    
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "python.condaPath": "/home/shobhit/micromamba/condabin/conda",
+    "editor.tabCompletion": "on",
+    "debug.inlineValues": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {},
+    "files.autoGuessEncoding": true,
+    "debug.autoExpandLazyVariables": true,
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "bash",
+        "zsh",
+        "fish"
+    ],
+    "terminal.integrated.shellIntegration.enabled": true,
+    "cph.general.saveLocation": "/home/shobhit/Documents/programing/All codes Execution files/.cph/",
+    "editor.inlineSuggest.enabled": true,
+    "cph.general.autoShowJudge": false,
+    "errorLens.enabled": true,
+    "errorLens.messageTemplate": "$message - ($source)",
+    "github.copilot.enable": {
+        
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "git.confirmSync": false,
+    "errorLens.delay": 500,
+    "terminal.integrated.env.linux": {
+        "fish_INIT_COMMAND": "source dev-environment-setup.sh"
+    },
+    "terminal.integrated.profiles.linux": {
+
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "icon": "terminal-ubuntu"
+        },
+        "fish": {
+            "path": "fish",
+            "icon": "terminal-linux"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "errorLens.statusBarIconsEnabled": true,
+    "c-cpp-flylint.flexelint.enable": false,
+    "python.globalModuleInstallation": true,
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.defaultLocation": "editor",
+    "update.mode": "none",
+    "workbench.welcomePage.experimental.videoTutorials": "on",
+    "zenMode.restore": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions"
+}

@@ -57,6 +57,6 @@ int main(void)/*(int argc,char **argv)*/ {
         cout << "\n\t" << num << " :\t";
         makePattern(num--);
     }
-
+    
  return 0;
 }
