@@ -25,7 +25,7 @@ int main(int argc,const char **argv) {
     else cout << "\n\tYou have no arguments!!";
     
     
-    
+
  return 0;
 }
 
