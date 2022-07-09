@@ -1,4 +1,4 @@
-class new_bottles{
+class new_bottles {
 	public static void main(String[] args) {
 
 		//Test T and hello T  works, meaning it can call classes from any programs it just save in folder of it

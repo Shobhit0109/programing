@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Package",
+            "request": "launch",
+            "mainClass": "Package",
+            "projectName": "java_187e4687"
+        },
+        {
+            "type": "java",
+            "name": "Launch new_bottles",
+            "request": "launch",
+            "mainClass": "new_bottles",
+            "projectName": "java_187e4687"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java_187e4687"
+        },
+        {
+            "type": "java",
+            "name": "Launch triplet_sum",
+            "request": "launch",
+            "mainClass": "triplet_sum",
+            "projectName": "java_187e4687"
+        }
+    ]
+}
