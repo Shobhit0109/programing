@@ -24,7 +24,7 @@ int main(int argc,const char **argv) {
     if (argc > 1) cout << "\n\tYou have arguments also!!";
     else cout << "\n\tYou have no arguments!!";
 
-    boile
+    
 
  return 0;
 }

@@ -4,13 +4,15 @@ import os, sys
 
 def Main():
     index = lambda i,j,n : ((i)*(n)+(j))
-    print(f"Your file name is: {sys.argv[0].split('/')[-1]}")
+    print(f"Your file name is: {sys.argv[0]}")
     if len(sys.argv) > 1:
         print("You have arguments also !!")
-    else: 
-        print("No arguments!!")
+
+    else:
+        print("No arguments !!",end="\n\n")
+
+    
     return
 
 if __name__ == "__main__":
     Main()
-    
