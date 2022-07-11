@@ -1,4 +1,9 @@
 {
-     "typescript.suggest.paths": false, 
-     "javascript.suggest.paths": false 
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+}
 }
