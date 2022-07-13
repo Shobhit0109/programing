@@ -10,9 +10,9 @@ int main(void) {
 
     int n = 4;
     cout << "\n\tEnter the size of Matrix : ";
-    //cin >> n;
+    cin >> n;
 
-    int a[n*n] , k = 1 , u = 0, v = 0;
+    int a[n*n] , k = 1 , u = 0, v = 0 , m = 0;
 
     f(i,n*n)
         a[i] = i+1;
@@ -24,12 +24,11 @@ int main(void) {
             cout << a[i(i,j,n)] << " ";
     }
 
-    cout << "\n\n\tSpiral Matrix :\n";
+    cout << "\n\n\tSpiral Matrix :\t";
 
-    f(i,3*n) {
+    f(i,n*n) {
 
-        //cout << a[i(u,v,n)] << " ";
-        cout << u << " " << v << " " << n-i/n-1 << " " << i << " " << a[i(u,v,n)] << "\n";
+        cout << a[i(u,v,n)] << " ";
 
         switch (k) {
             case 1:
@@ -46,14 +45,17 @@ int main(void) {
                 break;
         }
 
-        if (u == i/n && v == n-i/n-1)
+        if (u == m && v == n-m-1)
             k = 2;
-        else if (u == n-i/n-1 && v == n-i/n-1)
+        else if (u == n-m-1 && v == n-m-1)
             k = 3;
-        else if (u == n-i/n-1 && v == i/n)
+        else if (u == n-m-1 && v == m) {
             k = 4;
-        else if (u == i/n + 1 && v == i/n)
+            m ++;
+        }
+        else if (u == m && v == m-1)
             k = 1;
+        
 
     }
  return 0;
