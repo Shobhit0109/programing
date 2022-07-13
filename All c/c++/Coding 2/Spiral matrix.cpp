@@ -20,8 +20,11 @@ int main(void) {
     cout << "\n\tThe Matrix is : \n";
     f(i,n) {
         cout << "\n\t";
-        f(j,n)
+        f(j,n) {
+            if (a[i(i,j,n)] < 10)
+                cout << " ";
             cout << a[i(i,j,n)] << " ";
+        }
     }
 
     cout << "\n\n\tSpiral Matrix :\t";
@@ -29,6 +32,7 @@ int main(void) {
     f(i,n*n) {
 
         cout << a[i(u,v,n)] << " ";
+        a[i(u,v,n)] = i+1;
 
         switch (k) {
             case 1:
@@ -55,8 +59,18 @@ int main(void) {
         }
         else if (u == m && v == m-1)
             k = 1;
-        
-
     }
+
+
+    cout << "\n\tThe Matrix is : \n";
+    f(i,n) {
+        cout << "\n\t";
+        f(j,n) {
+            if (a[i(i,j,n)] < 10)
+                cout << " ";
+            cout << a[i(i,j,n)] << " ";
+        }
+    }
+    
  return 0;
 }
