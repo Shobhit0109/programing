@@ -60,9 +60,8 @@ int main(void) {
         else if (u == m && v == m-1)
             k = 1;
     }
-
-
-    cout << "\n\tThe Matrix is : \n";
+    
+    cout << "\n\n\tThe Matrix is : \n";
     f(i,n) {
         cout << "\n\t";
         f(j,n) {
