@@ -3,6 +3,12 @@ import sys
 
 
 def Main():
+
+    
+
+    return
+
+if __name__ == "__main__":
     index = lambda i,j,n : ((i)*(n)+(j))
     print(f"Your file name is: {sys.argv[0]}")
     if len(sys.argv) > 1:
@@ -11,8 +17,4 @@ def Main():
     else:
         print("No arguments !!",end="\n\n")
 
-    
-    return
-
-if __name__ == "__main__":
     Main()
