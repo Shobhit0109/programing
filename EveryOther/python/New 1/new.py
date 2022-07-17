@@ -6,7 +6,7 @@ def Main():
     index = lambda i,j,n : ((i)*(n)+(j))
     print(f"Your file name is: {sys.argv[0]}")
     if len(sys.argv) > 1:
-        print("You have arguments als    R67o !!")
+        print("You have arguments also !!")
 
     else:
         print("No arguments !!",end="\n\n")
