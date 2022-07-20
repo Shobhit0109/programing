@@ -6,35 +6,12 @@ using namespace std;
 #define i(i,j,n) ((i)*(n) + (j))
 #define endl ("\n")
 
-int main(void) {
-
-    int n = 4;
-    cout << "\n\tEnter the size of Matrix : ";
-    cin >> n;
-
-    int a[n*n] , k = 1 , u = 0, v = 0 , m = 0;
-
-    f(i,n*n)
-        a[i] = i+1;
-
-    cout << "\n\tThe Matrix is : \n";
-    f(i,n) {
-        cout << "\n\t";
-        f(j,n) {
-            if (a[i(i,j,n)] < 10)
-                cout << " ";
-            cout << a[i(i,j,n)] << " ";
-        }
-    }
-
-    cout << "\n\n\tSpiral Matrix :\t";
-
-    f(i,n*n) {
+void spiralMatrix(int *a,int u,int v,int m,int n,int k,int i) {
 
         cout << a[i(u,v,n)] << " ";
         a[i(u,v,n)] = i+1;
 
-        switch (k) {
+                switch (k) {
             case 1:
                 v++;
                 break;
@@ -59,7 +36,34 @@ int main(void) {
         }
         else if (u == m && v == m-1)
             k = 1;
+
+        if (i++ < n*n) return spiralMatrix(a,u,v,m,n,k,i);
+
+}
+int main(void) {
+
+    int n = 4;
+    cout << "\n\tEnter the size of Matrix : ";
+    cin >> n;
+
+    int a[n*n];
+
+    f(i,n*n)
+        a[i] = i+1;
+
+    cout << "\n\tThe Matrix is : \n";
+    f(i,n) {
+        cout << "\n\t";
+        f(j,n) {
+            if (a[i(i,j,n)] < 10)
+                cout << " ";
+            cout << a[i(i,j,n)] << " ";
+        }
     }
+
+    cout << "\n\n\tSpiral Matrix :\t";
+
+    spiralMatrix(a,0,0,0,0,1,0);
     
     cout << "\n\n\tThe Matrix is : \n";
     f(i,n) {
@@ -70,6 +74,8 @@ int main(void) {
             cout << a[i(i,j,n)] << " ";
         }
     }
+
+    
     
  return 0;
 }
