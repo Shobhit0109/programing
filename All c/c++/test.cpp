@@ -7,7 +7,7 @@ int main(void) {
     // void a; //can't make variable void
  //cout << i;
     int u=5,v=u; //how the hell this or int a[10] , *ptr = a; works
-    cout << v << endl;;
+    cout << v << endl;
     void *a;
     a = new int[10];
     // cout << *a; //creates an error --- ‘void*’ is not a pointer-to-object type
