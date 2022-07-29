@@ -6,13 +6,13 @@ using namespace std;
 #define i(i,j,n) ((i)*(n) + (j))
 #define endl ("\n")
 
-void printSubByRec(const int *a,const int n) {
+void printSubByRec(const int* a, const int n) {
     if (n == 1) {
         cout << *a << " ";
         return;
     }
-    
-    
+
+
 }
 
 int main(void) {
@@ -27,7 +27,7 @@ int main(void) {
     //     cin >> arr[i];
     // }
 
-    int size = 3,arr[3] = {15,20,12};
+    int size = 3, arr[3] = { 15,20,12 };
     printSubByRec(arr, size);
 
  return 0;
